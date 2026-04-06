@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ultimate Personal Productivity Dashboard — An immersive, 3D command center for daily management.">
+    <title>Dashboard | Command Center</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/base.css">
+</head>
+<body>
+    <main class="dashboard-container">
+        <!-- Background Ambient Blobs -->
+        <div class="ambient-blob blob-1"></div>
+        <div class="ambient-blob blob-2"></div>
+
+        <section class="floating-desktop">
+            <header class="dashboard-header">
+                <div class="header-content">
+                    <h1 id="main-time">00:00</h1>
+                    <p class="status-badge"><span class="pulse"></span> System Online</p>
+                </div>
+            </header>
+
+            <div class="widget-grid">
+                <article class="glass-card" id="widget-1">
+                    <div class="card-glass"></div>
+                    <div class="card-content">
+                        <h3>Weather System</h3>
+                        <div class="placeholder-skeleton"></div>
+                    </div>
+                </article>
+
+                <article class="glass-card" id="widget-2">
+                    <div class="card-glass"></div>
+                    <div class="card-content">
+                        <h3>Task Protocol</h3>
+                        <div class="placeholder-skeleton"></div>
+                    </div>
+                </article>
+
+                <article class="glass-card" id="widget-3">
+                    <div class="card-glass"></div>
+                    <div class="card-content">
+                        <h3>Notes Matrix</h3>
+                        <div class="placeholder-skeleton"></div>
+                    </div>
+                </article>
+
+                <article class="glass-card" id="widget-4">
+                    <div class="card-glass"></div>
+                    <div class="card-content">
+                        <h3>Financial Ledger</h3>
+                        <div class="placeholder-skeleton"></div>
+                    </div>
+                </article>
+
+                <article class="glass-card" id="widget-5">
+                    <div class="card-glass"></div>
+                    <div class="card-content">
+                        <h3>Ritual Matrix</h3>
+                        <div class="placeholder-skeleton"></div>
+                    </div>
+                </article>
+
+                <article class="glass-card" id="widget-6">
+                    <div class="card-glass"></div>
+                    <div class="card-content">
+                        <h3>Focus Protocol</h3>
+                        <div class="placeholder-skeleton"></div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="src/scripts/app.js"></script>
+</body>
+</html>
