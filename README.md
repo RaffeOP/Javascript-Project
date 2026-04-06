@@ -2,7 +2,6 @@
 
 A premium, highly interactive, and **3D-styled** Personal Productivity Command Center built exclusively with vanilla **HTML, CSS, and JavaScript**. This project is a comprehensive masterclass in building immersive web experiences without external frameworks.
 
-![Dashboard Preview](https://via.placeholder.com/1200x600.png?text=Ultimate+3D+Productivity+Dashboard)
 
 ## 🚀 Experience the "WOW" Factor
 This dashboard isn't just a list of apps; it's a **Floating Desktop** environment. 
